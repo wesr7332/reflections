@@ -6,4 +6,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help? Branches can be used to work on new projects, such as a new experimental feature.
 
-How do the diagrams help you visualize the branch structure? They show the parents/children of branches and may also show any unreachable nodes.
+How do the diagrams help you visualize the branch structure? They show the parents/children of branches and may also show any unreachable commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do? All the commits/changes are merged. It is represented that way because the new head is a combination of the two branches (it has multiple parents).
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually? Automatic merging saves time but can be error-prone. Manual merging forces developers to work together to solve conflicts. However, they can be time consuming.
