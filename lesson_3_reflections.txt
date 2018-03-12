@@ -11,3 +11,7 @@ c) A branch is a local "fork" of your project for you to use to individually wor
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It allows us to resolve any conflicts between the two branches, commit the resolved change (updating the master branch) and then push the resolved commit to the remote repository, which updates the origin/master branch.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+a) Working on changes would be harder. Submitting them and requesting comments would be a much more manual process, making it error-prone.
+b) I can't think of what would be easier.
